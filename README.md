@@ -11,7 +11,3 @@ This got annoying very quickly
 
 The image handler is a php script that gives you a form to upload one or more image files and at the same time assign them a tag. Every image is then saved in an "originals" directory. This image is then automatically resized to 6 different sizes, every possibly needed thumbnail is generated this way.
 The original image, along with its thumbnails, is given a "Group ID" and every image and thumbnail itself is given its own unique ID. 
-
-### Inserting a thumbnail into an article ###
-
-To insert a thumbnail into an article, all you need is the unique ID. You then call the function "imgtag" with the ID as an argument. The function generates the html code which you can directly echo onto the html page. "imgtag" even has the ability to add a link to the thumbnail, which opens up the original image it was created from. 
